@@ -4,6 +4,9 @@ Heroku buildpack: Scala
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for Scala apps.
 It uses [sbt](https://github.com/harrah/xsbt/) 0.11.0+.
 
+Added everestnl:
+- Sass compass
+
 Usage
 -----
 
@@ -12,7 +15,7 @@ Example usage:
     $ ls
     Procfile build.sbt project src
 
-    $ heroku create --buildpack https://github.com/heroku/heroku-buildpack-scala.git
+    $ heroku create --buildpack https://github.com/everestnl/heroku-buildpack-scala.git
 
     $ git push heroku master
     ...
